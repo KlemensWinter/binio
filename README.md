@@ -11,14 +11,14 @@ A library for decoding binary data into structs.
 ## Example
 ```go
 type Data struct {
-	MyString string `bin:"size=12"` // ASCII string with a length of 12
-	A uint32
+    MyString string `bin:"size=12"` // ASCII string with a length of 12
+    A uint32
     B float32
     C float64
-	_ [2]byte // skip 2 bytes
-	D uint64
+    _ [2]byte // skip 2 bytes
+    D uint64
 
-    E []int32 `bin:"size=3"`
+    E []int32 `bin:"size=3,if=%A"`
 
     MyArrayLength int32
     MyArrayData []float64 `bin:"size=%MyArrayLength"`
