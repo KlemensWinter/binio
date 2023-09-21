@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/KlemensWinter/binio"
+	"github.com/KlemensWinter/go-binio"
 	"github.com/stretchr/testify/assert"
 )
 

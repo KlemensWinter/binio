@@ -17,13 +17,6 @@ type SizedInteger interface {
 	SizedSigned | SizedUnsigned
 }
 
-/*
-func AppendVarString[E SizedUnsigned](buf []byte, str string) []byte {
-	buf = binary.LittleEndian.AppendUint16()
-	return nil
-}
-*/
-
 func WriteVarString[E SizedUnsigned](w io.Writer, str string) error {
 	e := E(len(str))
 	err := binary.Write(w, binary.LittleEndian, e)

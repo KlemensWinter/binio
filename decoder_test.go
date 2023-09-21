@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/KlemensWinter/binio"
+	"github.com/KlemensWinter/go-binio"
 	"github.com/stretchr/testify/assert"
 )
 

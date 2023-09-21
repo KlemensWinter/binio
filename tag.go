@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/KlemensWinter/binio/expr"
+	"github.com/KlemensWinter/go-binio/expr"
 	"golang.org/x/exp/maps"
 )
 

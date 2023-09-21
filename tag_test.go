@@ -3,8 +3,8 @@ package binio_test
 import (
 	"testing"
 
-	"github.com/KlemensWinter/binio"
-	"github.com/KlemensWinter/binio/expr"
+	"github.com/KlemensWinter/go-binio"
+	"github.com/KlemensWinter/go-binio/expr"
 	"github.com/stretchr/testify/assert"
 )
 

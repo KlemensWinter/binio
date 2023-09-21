@@ -14,7 +14,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/KlemensWinter/binio/expr"
+	"github.com/KlemensWinter/go-binio/expr"
 )
 
 var (

@@ -18,24 +18,11 @@ type (
 
 		Name string
 		Typ  reflect.Type
-
-		/*
-			Size string
-			IsDynArray   bool
-			IsHoleyArray bool
-			IsDynString  bool
-			Ptrs string
-			// Condition string
-			// Condition *govaluate.EvaluableExpression
-			Condition string
-		*/
-		Tag *Tag
-		// Vars map[string]string
+		Tag  *Tag
 	}
 
 	structDef struct {
-		Name string
-
+		Name   string
 		Fields []*field
 	}
 )
